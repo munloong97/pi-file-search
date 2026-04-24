@@ -1,0 +1,20 @@
+{
+  "name": "pi-file-search",
+  "version": "1.0.0",
+  "description": "Modern file search for pi - combines fd, ripgrep, and fzf as both skill and extension tools",
+  "keywords": ["pi-package", "file-search", "fd", "ripgrep", "rg", "fzf"],
+  "license": "MIT",
+  "author": "your-username",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/pi-file-search.git"
+  },
+  "pi": {
+    "extensions": ["./extensions/file-search.ts"],
+    "skills": ["./skills/file-search"]
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "zod": "^3.x"
+  }
+}
